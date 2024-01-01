@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.etch-body{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.etch-tile{
+  height: 16px;
+  width: 16px;
+  padding: 16px;
+  border: 1px black solid;
+}
+.row{
+  display: flex;
+}

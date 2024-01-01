@@ -5,6 +5,15 @@
 body{
   background-color: #505050;
 }
+.head
+{
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
 .etch-body{
   color: white;
   justify-content: center;
@@ -14,7 +23,6 @@ body{
 }
 
 .etch-tile{
-  padding: 5px;
   border: 1px black solid;
 }
 .row{

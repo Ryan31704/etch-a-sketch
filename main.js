@@ -12,8 +12,15 @@ for(let i = 0; i < 16; i ++)
     let tile = document.createElement('span');
     tile.classList.add('etch-tile');
     ecthRowContainer.appendChild(tile);
+    tile.addEventListener('mouseover', function()
+    {
+      tile.style.background = 'black';
+    });
   }
   etchBody.appendChild(ecthRowContainer)
 }
+
+
+
 
 
